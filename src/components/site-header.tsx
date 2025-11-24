@@ -9,6 +9,11 @@ import { ActionButton } from "@/components/action-button";
 import { useRouter } from "next/navigation";
 
 export default function SiteHeader() {
+    return (
+    <header> ... </header>
+  );
+
+
     const [isOpen, setIsOpen] = useState(false);
     const [isChatbaseLoaded, setIsChatbaseLoaded] = useState(false);
 
