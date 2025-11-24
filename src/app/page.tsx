@@ -8,16 +8,17 @@ import { Testimonials } from "@/components/testimonials";
 
 
 
+
 export default function Home() {
     return (
         <>
             <SiteHeader />
             <HeroSection />
-            <LogoTicker />
             <Features />
             <Testimonials />
             <CallToAction />
             <SiteFooter />
+            
         </>
     );
 }

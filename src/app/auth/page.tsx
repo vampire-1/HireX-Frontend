@@ -1,9 +1,9 @@
-import ChatsolPage from "@/components/chatbotsol";
+import ChatbotPage from "@/components/auth";
 
 export default function Home() {
     return (
         <>
-            <ChatsolPage />
+            <ChatbotPage />
         </>
     );
 }

@@ -14,13 +14,13 @@ export default function SiteFooter() {
                         <div className={"border size-8 rounded-lg inline-flex items-center justify-center"}>
                             <SiteLogo className={"size-6 h-auto"}/>
                         </div>
-                        <p className={"font-medium"}>Lexora</p>
+                        <p className={"font-medium"}>HireX</p>
                     </section>
 
 
 
                     <p className="text-balance text-center text-sm leading-loose text-muted-foreground md:text-left">
-                        ©️ 2024 Debug Thugs, All rights reserved. Built by Team Debug Thugs! <a
+                        ©️ 2025 HireX, All rights reserved. Built by Team HireX! <a
                         href={"https://github.com/MrInspection"}
                         target="_blank"
                         rel="noreferrer"
@@ -31,11 +31,7 @@ export default function SiteFooter() {
                         
                     </p>
                     <div>
-                        <ul className={"flex justify-center gap-3 text-white/40"}>
-                            <li className={"hover:text-white cursor-pointer"}><X/></li>
-                            <li className={"hover:text-white cursor-pointer"}><Instagram/></li>
-                            <li className={"hover:text-white cursor-pointer"}><Youtube/></li>
-                        </ul>
+                        
                     </div>
                 </div>
             </footer>

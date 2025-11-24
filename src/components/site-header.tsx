@@ -62,7 +62,7 @@ export default function SiteHeader() {
                             </nav>
                         </section>
                         <section className={"flex max-md:gap-4 items-center"}>
-                            <ActionButton label={"Ask Lexora"} onClick={() => router.push("/chatbase")} />
+                            <ActionButton label={"Ask HireX"} onClick={() => router.push("/auth")} />
                             <Sheet open={isOpen} onOpenChange={setIsOpen}>
                                 <SheetTrigger>
                                     <MenuIcon className={"size-9 md:hidden hover:text-white/70 transition"} />
@@ -72,7 +72,7 @@ export default function SiteHeader() {
                                         <div className={"border size-8 rounded-lg inline-flex items-center justify-center"}>
                                             <SiteLogo className={"size-6 h-auto"} />
                                         </div>
-                                        <p className={"font-bold"}>Lexora</p>
+                                        <p className={"font-bold"}>HireX</p>
                                     </div>
                                     <div className={"mt-8 mb-4"}>
                                         <nav className={"grid gap-4 items-center text-lg"}>

@@ -57,7 +57,7 @@ export function CallToAction() {
                         />
                         <div className={"relative"}>
                             <h2 className={"text-5xl tracking-tighter text-center font-medium"}>
-                                Lexora, AI-driven Law ChatBot for everyone
+                                HireX, Smart Resume Screener for everyone
                             </h2>
                             <p className={"text-center text-lg md:text-xl text-white/70 tracking-tight px-4 mt-5"}>
                                 Achieve clear, impactful results without the complexity.

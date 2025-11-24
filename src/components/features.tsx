@@ -1,7 +1,6 @@
 "use client";
 
 import {DotLottieCommonPlayer, DotLottiePlayer,} from "@dotlottie/react-player";
-import ProductImage from "@/assets/product-image.png";
 import {animate, motion, useMotionTemplate, useMotionValue, ValueAnimationTransition,} from "framer-motion";
 import {ComponentPropsWithoutRef, useEffect, useRef, useState} from "react";
 
@@ -24,7 +23,8 @@ const tabs = [
     },
     {
         icon: "/assets/lottie/stars.lottie",
-        title: "Working With Fine Tuned Lexo-1.o Model",        isNew: true,
+        title: "Working With Fine Tuned HireX-1.o Model",
+        isNew: true,
         backgroundPositionX: 100,
         backgroundPositionY: 27,
         backgroundSizeX: 177,
@@ -151,10 +151,10 @@ export function Features() {
             <section className={"py-20 md:py-24"} id="features">
                 <div className={"container"}>
                     <h2 className={"text-5xl md:text-6xl font-medium text-center tracking-tighter"}>
-                    Legal Assistance, Simplified !
+                        Hiring, Simplified !
                     </h2>
                     <p className={"text-white/70 text-lg md:text-xl max-w-2xl mx-auto text-center tracking-tight mt-5"}>
-                    Streamline your legal research and get accurate, real-time insights with Lexora.
+                        Discover the next generation of talent through skills.
                     </p>
 
                     <div className={"mt-10 grid lg:grid-cols-3 gap-3"}>
@@ -167,16 +167,6 @@ export function Features() {
                             />
                         ))}
                     </div>
-                    <motion.div className={"border border-muted rounded-xl p-2.5 mt-3"}>
-                        <div
-                            className={"aspect-video bg-cover border border-muted rounded-lg"}
-                            style={{
-                                backgroundPosition: backgroundPosition.get(),
-                                backgroundSize: backgroundSize.get(),
-                                backgroundImage: `url(${ProductImage.src})`,
-                            }}
-                        ></div>
-                    </motion.div>
                 </div>
             </section>
         </>

@@ -17,7 +17,7 @@ export function HeroSection() {
   const backgroundPositionY = useTransform(scrollYProgress, [0, 1], [-300, 300])
   
   const handleClick = () => {
-    router.push("/chatbase")
+    router.push("/auth")
   }
     return (
         <>
@@ -56,10 +56,10 @@ export function HeroSection() {
                 </motion.div>
                 {/* Hero Section Content Logic */}
                 <div className={"container relative mt-16"}>
-                    <h1 className={"text-8xl md:text-[168px] md:leading-none font-semibold bg-white tracking-tighter bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,0.5))] bg-clip-text text-transparent text-center"}>LEXORA</h1>
-                    <p className={"text-lg md:text-xl max-w-xl mx-auto text-white/70 mt-5 text-center"}>Meet Lexora, your AI-driven legal chatbot that assists with legal research, offering precise, real-time responses to queries, making legal processes more efficient and accessible.</p>
+                    <h1 className={"text-8xl md:text-[168px] md:leading-none font-semibold bg-white tracking-tighter bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,0.5))] bg-clip-text text-transparent text-center"}>HireX</h1>
+                    <p className={"text-lg md:text-xl max-w-xl mx-auto text-white/70 mt-5 text-center"}>Meet HireX, Your Smart hiring assistant that analyzes resumes, offers precise, real-time insights, and makes recruitment more efficient and accessible.</p>
                     <div className={"flex justify-center mt-5"}>
-                        <ActionButton label={"--> Try Lexora"} onClick={handleClick} />
+                        <ActionButton label={"--> Try HireX"} onClick={handleClick} />
                     </div>
                 </div>
             </motion.section>

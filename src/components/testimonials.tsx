@@ -9,22 +9,22 @@ import { motion } from "framer-motion";
 
 const testimonials = [
     {
-        text: "“Accessibility: Offers immediate access to legal information and assistance 24/7, making legal help more readily available to users.”",
+        text: "“Smart Candidate Search: Recruiters can query in plain English and instantly get precise, ranked results.”",
        
         avatarImg: Avatar1,
     },
     {
-        text: "“Confidentiality: Ensures that sensitive legal inquiries and information are handled securely and privately.”",
+        text: "“Advanced Resume Filtering: Powerful filters for skills, education, project, CGPA, hackathon wins, roles, and more to land the right candidates.”",
         
         avatarImg: Avatar2,
     },
     {
-        text: "“Scalability: Handles multiple queries simultaneously, making it possible to assist a large number of users efficiently.”",
+        text: "“Seamless Resume Management: Upload bulk resumes in .zip, automatically parse and analyze them, then download shortlisted resumes in one click.”",
        
         avatarImg: Avatar3,
     },
     {
-        text: "“Education: Enhances legal literacy by explaining legal terms, processes, and rights in a clear and accessible manner.”",
+        text: "“Bias-Free Evaluation: Ensure fair, consistent, and transparent candidate selection.”",
         
         avatarImg: Avatar4,
     },
@@ -36,7 +36,7 @@ export function Testimonials() {
             <section className={"py-20 md:py-24"} id="about">
                 <div className={"container"}>
                     <h2 className={"text-5xl md:text-6xl font-medium text-center tracking-tighter"}>Beyond Expectations.</h2>
-                    <p className={"text-white/70 text-lg md:text-xl max-w-2xl mx-auto text-center tracking-tight mt-5"}>Experience faster, more accurate legal research with our innovative ChatBot.</p>
+                    <p className={"text-white/70 text-lg md:text-xl max-w-2xl mx-auto text-center tracking-tight mt-5"}>Experience faster, more accurate hiring with our innovative AI Resume Analyzer.</p>
                     <div className={"flex overflow-hidden mt-10 [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]"}>
                         <motion.div
                             initial={{translateX: '-50%'}}
